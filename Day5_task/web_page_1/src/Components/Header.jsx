@@ -4,8 +4,8 @@ function Header() {
     return (
         <>
             <header className="header">
-                <h1>Foodie Hub</h1>
-                <p>Delicious food, delivered fresh</p>
+                <h1>MovieBox</h1>
+                <p>Book tickets for the latest movies</p>
             </header>
         </>
     )

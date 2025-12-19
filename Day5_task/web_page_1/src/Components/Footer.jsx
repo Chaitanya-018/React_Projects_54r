@@ -3,7 +3,7 @@ function Footer() {
     return (
         <>
             <footer className="footer">
-                <p>© 2025 Foodie Hub | All Rights Reserved</p>
+                <p>© 2025 MovieBox | Book Smart. Watch Big.</p>
             </footer>
         </>
     )
