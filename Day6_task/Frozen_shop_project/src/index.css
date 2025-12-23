@@ -1,0 +1,196 @@
+/* ================= RESET ================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", Helvetica, sans-serif;
+  background: #ffffff;
+  color: #7a6666;
+}
+
+/* ================= PAGE ================= */
+#page {
+  width: 100%;
+}
+
+/* ================= HEADER ================= */
+#header {
+  background: #f2efed;
+  padding: 30px 0;
+}
+
+#header > div {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 55px;
+}
+
+/* NAV */
+#navigation {
+  list-style: none;
+  display: flex;
+  gap: 40px;
+}
+
+#navigation li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #7a6666;
+  letter-spacing: 1px;
+}
+
+#navigation li.selected a {
+  color: #ec2c64;
+}
+
+/* ================= HERO IMAGE ================= */
+#body.home .header {
+  position: relative;
+  background: #ffffff;
+}
+
+#body.home .header img {
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+}
+
+/* FREEZE DELIGHT CIRCLE */
+#body.home .header div {
+  position: absolute;
+  right: 180px;
+  bottom: 60px;
+}
+
+#body.home .header a {
+  display: inline-block;
+  width: 130px;
+  height: 130px;
+  background: #ec2c64;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 130px;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* ================= CONTENT SECTION ================= */
+#body.home .body {
+  background: #f2efed;
+  padding: 70px 0;
+}
+
+#body.home .body > div {
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#body.home .body h1 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+#body.home .body h2 {
+  font-size: 32px;
+  color: #ec2c64;
+  margin-bottom: 20px;
+}
+
+#body.home .body p {
+  font-size: 15px;
+  line-height: 1.6;
+  width: 420px;
+}
+
+#body.home .body img {
+  width: 360px;
+}
+
+/* ================= GREEN STRIP ================= */
+#body.home .footer {
+  background: #c8c10d;
+  padding: 40px 0;
+}
+
+#body.home .footer ul {
+  width: 1100px;
+  margin: auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+#body.home .footer li {
+  text-align: center;
+  width: 25%;
+  color: #ffffff;
+}
+
+#body.home .footer h1 {
+  font-size: 14px;
+  margin-top: 12px;
+  letter-spacing: 1px;
+}
+
+/* ICON CIRCLES */
+.product,
+.about,
+.flavor,
+.contact {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.3);
+  display: block;
+  margin: auto;
+}
+
+/* ================= MAIN FOOTER ================= */
+#footer {
+  background: #ec2c64;
+  padding: 40px 0;
+}
+
+#footer > div {
+  width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.connect {
+  margin-bottom: 20px;
+}
+
+.connect a {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  background: #ffffff;
+  color: #ec2c64;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 4px;
+  margin: 0 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#footer p {
+  color: #ffffff;
+  font-size: 13px;
+}
