@@ -1,7 +1,7 @@
 import React from "react";
 export class Statemanagement extends React.Component{
   
-    constructor(){
+  constructor(){
         super();
         this.state = {
             greeting : "Today is Wednesday, Semi Christmas"

@@ -1,0 +1,23 @@
+.card {
+  width: 300px;
+  padding: 20px;
+  border-radius: 25px;
+  border: 1px solid black;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  margin-left: 40%;
+  margin-top:10%;
+}
+
+.product-name {
+  color: #333;
+}
+
+.product-price {
+  color: green;
+}
+
+.product-desc {
+  color: #555;
+  font-weight: bold;
+}
